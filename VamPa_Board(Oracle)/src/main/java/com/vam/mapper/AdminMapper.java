@@ -17,4 +17,6 @@ public interface AdminMapper {
 	public int goodsGetTotal(Criteria cri);
 	/* 상품 조회 페이지 */
 	public BookVO goodsGetDetail(int bookId);
+	/* 상품 수정 */
+	public int goodsModify(BookVO vo);
 }
